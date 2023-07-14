@@ -62,7 +62,7 @@ index-events = []
 # IavlCacheSize set the size of the iavl tree cache (in number of nodes).
 iavl-cache-size = 781250
 
-# IAVLDisableFastNode enables or disables the fast node feature of IAVL.
+# IAVLDisableFastNode enables or disables the fast node feature of IAVL. 
 # Default is false.
 iavl-disable-fastnode = false
 
@@ -224,10 +224,3 @@ stop-node-on-err = true
 # Note, this configuration only applies to SDK built-in app-side mempool
 # implementations.
 max-txs = "5000"
-
-[wasm]
-# This is the maximum sdk gas (wasm and storage) that we allow for any x/wasm "smart" queries
-query_gas_limit = 300000
-# This is the number of wasm vm instances we keep cached in memory for speed-up
-# Warning: this is currently unstable and may lead to crashes, best to keep for 0 unless testing locally
-lru_size = 0

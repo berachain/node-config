@@ -8,7 +8,7 @@
 
 # The version of the CometBFT binary that created or
 # last modified the config file. Do not modify this.
-version = "0.38.0-rc1"
+version = "0.38.0-rc2"
 
 #######################################################################
 ###                   Main Base Config Options                      ###
@@ -166,7 +166,7 @@ experimental_close_on_slow_client = false
 # WARNING: Using a value larger than 10s will result in increasing the
 # global HTTP write timeout, which applies to all connections and endpoints.
 # See https://github.com/tendermint/tendermint/issues/3435
-timeout_broadcast_tx_commit = "10s"
+timeout_broadcast_tx_commit = "15s"
 
 # Maximum size of request body, in bytes
 max_body_bytes = 1000000

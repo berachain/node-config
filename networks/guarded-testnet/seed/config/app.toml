@@ -17,7 +17,7 @@ minimum-gas-prices = "0abera"
 pruning = "custom"
 
 # These are applied if and only if the pruning strategy is custom.
-pruning-keep-recent = "100"
+pruning-keep-recent = "256"
 pruning-interval = "10"
 
 # HaltHeight contains a non-zero block height at which a node will gracefully
