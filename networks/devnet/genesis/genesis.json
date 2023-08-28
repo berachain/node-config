@@ -1,7 +1,7 @@
 {
   "app_name": "berad",
-  "app_version": "0.0.1-147-g508f94cd",
-  "genesis_time": "2023-08-22T20:55:08.840099171Z",
+  "app_version": "0.0.1-146-g4b3610d7",
+  "genesis_time": "2023-08-24T20:49:11.561038984Z",
   "chain_id": "berachain-devnet",
   "initial_height": 1,
   "app_hash": null,
@@ -17,35 +17,35 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1jpdw3shnt9v9lyc5q9c6de4cdq7j8va8d7ugq6",
+          "address": "cosmos1jdqzyv6r89n80hc3uwnpne3pc22rsfl4g0ac8r",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1w0c4q7qcv5m8459l4eu5z64cgwez2nmcgrglnj",
+          "address": "cosmos1h7v7dphvvdz4vclupxgdd3rlwrqukceexul0zf",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos172m3mhjeemkyzezh5gz6pfzj52g6vumdkmek6t",
+          "address": "cosmos1gy3nz5n6k8uhm5yqsg6sss3hkzfhfpdgvg4ths",
           "pub_key": null,
           "account_number": "2",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1exwndm6suctx25kl48lkjfsn3vvwnm5tfq79c9",
+          "address": "cosmos1nupcn584cxkm67t52uarqltp74ke4s73gkd0hn",
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1alyatkhp6q27f20kverzsf4l45vuvg6tp5wtp4",
+          "address": "cosmos1azxhg5c5wlykvuash5jl3lq5qlvhgl6dy5xymp",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
@@ -179,7 +179,7 @@
           ]
         },
         {
-          "address": "cosmos1w0c4q7qcv5m8459l4eu5z64cgwez2nmcgrglnj",
+          "address": "cosmos1gy3nz5n6k8uhm5yqsg6sss3hkzfhfpdgvg4ths",
           "coins": [
             {
               "denom": "abera",
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "address": "cosmos1jpdw3shnt9v9lyc5q9c6de4cdq7j8va8d7ugq6",
+          "address": "cosmos1jdqzyv6r89n80hc3uwnpne3pc22rsfl4g0ac8r",
           "coins": [
             {
               "denom": "abera",
@@ -247,7 +247,7 @@
           ]
         },
         {
-          "address": "cosmos1exwndm6suctx25kl48lkjfsn3vvwnm5tfq79c9",
+          "address": "cosmos1nupcn584cxkm67t52uarqltp74ke4s73gkd0hn",
           "coins": [
             {
               "denom": "abera",
@@ -264,36 +264,36 @@
           ]
         },
         {
-          "address": "cosmos1alyatkhp6q27f20kverzsf4l45vuvg6tp5wtp4",
+          "address": "cosmos1h7v7dphvvdz4vclupxgdd3rlwrqukceexul0zf",
           "coins": [
             {
               "denom": "abera",
-              "amount": "1000000000000000000000000000"
+              "amount": "100000000000000000000000000"
             },
             {
               "denom": "abgt",
-              "amount": "1000000000000000000000000000"
+              "amount": "100000000000000000000000000"
             },
             {
               "denom": "stgusdc",
-              "amount": "1000000000000000000000000000"
+              "amount": "100000000000000000000000000"
             }
           ]
         },
         {
-          "address": "cosmos172m3mhjeemkyzezh5gz6pfzj52g6vumdkmek6t",
+          "address": "cosmos1azxhg5c5wlykvuash5jl3lq5qlvhgl6dy5xymp",
           "coins": [
             {
               "denom": "abera",
-              "amount": "100000000000000000000000000"
+              "amount": "1000000000000000000000000000"
             },
             {
               "denom": "abgt",
-              "amount": "100000000000000000000000000"
+              "amount": "1000000000000000000000000000"
             },
             {
               "denom": "stgusdc",
-              "amount": "100000000000000000000000000"
+              "amount": "1000000000000000000000000000"
             }
           ]
         },
@@ -487,135 +487,11 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "seed-2",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "cosmosvaloper172m3mhjeemkyzezh5gz6pfzj52g6vumdn0drkc",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "FVRLhWFdt7c9plDPuYu/+5+xtFTxU6ZpfnC4rJx4iuA="
-                },
-                "value": {
-                  "denom": "abgt",
-                  "amount": "1000000000000000000000"
-                }
-              }
-            ],
-            "memo": "0ecc8b853c909ac7b16130d2b806f62f09c1e87a@192.168.184.5:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "Ain6Gnu8g94yQewO1nFIEAjGAcaKw8+duSh7uCy27Zof"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "7HStdSVwx9YpJ27c6yOvK2evXiu6McocgB038GOm6ekNfieqPHlx9wP+mLffw/HiRFFfG9l2S1P9DOnq4VyIYAE="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "seed-1",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "cosmosvaloper1w0c4q7qcv5m8459l4eu5z64cgwez2nmcdhu2lp",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "pNEi+JLKwa+hS1l5u+XSf38FqaRuVFniXY9oruZvqis="
-                },
-                "value": {
-                  "denom": "abgt",
-                  "amount": "1000000000000000000000"
-                }
-              }
-            ],
-            "memo": "72481c5de6054dd629dc866d16ef0311a29e5f42@192.168.97.102:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "AnyJD0/859oMhgrKMwgmlhV2zrSFWRDX+FaLSTWd5gyJ"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "1SX8o6Lsr88PSoDeNzNF9YX00mxTd6+obB6z7Rj/TutSoiRXuCxgOdo6s71uWZxHY8+X80Gv20aF8Jd8bagkdgA="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
                   "moniker": "seed-3",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
+                  "identity": "identity of seed-3",
+                  "website": "https://quantumwn.org/",
+                  "security_contact": "brick@berachain.com",
+                  "details": "This is seed-3"
                 },
                 "commission": {
                   "rate": "0.100000000000000000",
@@ -624,10 +500,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "cosmosvaloper1exwndm6suctx25kl48lkjfsn3vvwnm5tv52s5k",
+                "validator_address": "cosmosvaloper1nupcn584cxkm67t52uarqltp74ke4s73dze6mq",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "F3sknsFGxiGKkPWqXy/ed0kgz8n24/UP0BmfBUgudPk="
+                  "key": "X5m/ZQ+ODLZEcY4ibNJjoQ0wYHfd8XSZHoyFXzvQT0c="
                 },
                 "value": {
                   "denom": "abgt",
@@ -635,7 +511,7 @@
                 }
               }
             ],
-            "memo": "b9440d9306fac11e39c84fc968a3e073f0884f56@192.168.103.163:26656",
+            "memo": "2df00b4126acc33bf3f5959f48cb214ca18d7806@192.168.101.124:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -645,7 +521,7 @@
               {
                 "public_key": {
                   "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "AzgXcgkO9SEFSKTR/1fhqEsA3fi8/bfUORUuLfjI9lvd"
+                  "key": "AjL7WWjEwV0560/fAQn6/Zrr6xvypq0i1yhC/KP7DbAp"
                 },
                 "mode_info": {
                   "single": {
@@ -664,7 +540,7 @@
             "tip": null
           },
           "signatures": [
-            "oCKBW2dBU6LQ4JiILexzOpHc3wv/fRbclmOb08+qykYTFDAROf7pHV6lEt/+5QLbB8VfGNfQXPJQpZHm0MGOCgE="
+            "BmE16uSmXhghKqJbDAcEptV1ViINJkHg4dmvuo0SBmk4G2wzxL3dsZr65mrWuzZc5JxTzuN7MKdmp10RQ/qr0wE="
           ]
         },
         {
@@ -674,10 +550,10 @@
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
                   "moniker": "seed-0",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
+                  "identity": "identity of seed-0",
+                  "website": "https://quantumwn.org/",
+                  "security_contact": "brick@berachain.com",
+                  "details": "This is seed-0"
                 },
                 "commission": {
                   "rate": "0.100000000000000000",
@@ -686,10 +562,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "cosmosvaloper1jpdw3shnt9v9lyc5q9c6de4cdq7j8va8g2gavf",
+                "validator_address": "cosmosvaloper1jdqzyv6r89n80hc3uwnpne3pc22rsfl4dmfdts",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "fiMgfxjtx0kBAdBBKSm9MzFNHEbYloUm4/rrudMt9aE="
+                  "key": "RTEaUblmZke90T5wQkuuS+IHS1mbzmgQDhMnwgck+Yw="
                 },
                 "value": {
                   "denom": "abgt",
@@ -697,7 +573,7 @@
                 }
               }
             ],
-            "memo": "cf06cd85c30bf2efc54cc68cb495ceac159e7399@192.168.174.34:26656",
+            "memo": "69fbbf574a77a3b9f56b1d77c594ebaa075a04ac@192.168.178.91:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -707,7 +583,7 @@
               {
                 "public_key": {
                   "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "A2+eK+hDPmK0VFq/DlmVh6UeekjsPD06dkctXiJcXQs6"
+                  "key": "A8uH/3jl0YfzdpCijvxvOsCLGoCIvw8a0+R9ir5eargj"
                 },
                 "mode_info": {
                   "single": {
@@ -726,7 +602,131 @@
             "tip": null
           },
           "signatures": [
-            "6JEW6PbSSHxLFiQKuHwJ9sV5DeG/scCcwWdnBUZsWhplyGc/KF3SpEjHJUTWOJeNk8sK/RkzN7AcreNNSD+jxQA="
+            "bLm3DfGODnHMcrvHxo8bDvBh0JZVT6+gM2A/cGmop80Jnucos96IQwQWFjscZxBs2+zVU0chXYVolx70aCPingE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "seed-1",
+                  "identity": "identity of seed-1",
+                  "website": "https://quantumwn.org/",
+                  "security_contact": "brick@berachain.com",
+                  "details": "This is seed-1"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "cosmosvaloper1h7v7dphvvdz4vclupxgdd3rlwrqukceergt6w6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "o9wdkwUUisT5es1G38kzSg9F185VRBlm+K6mD9j+JxY="
+                },
+                "value": {
+                  "denom": "abgt",
+                  "amount": "1000000000000000000000"
+                }
+              }
+            ],
+            "memo": "75d830479a1cd3253f245c73d002636318fb2ff7@192.168.100.32:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
+                  "key": "AjNpAIjUv3vxWDCStdKmaHTfo9+b8nRl+Yc/W6vL0TJq"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "u61Jku17SGOeEnK47kK8hmcjdb8IiYO83uvkh3D1vG4KwCgouKgXSlexO4UWsxZS1rnxGW7rwX3jVuS/VKJQJAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "seed-2",
+                  "identity": "identity of seed-2",
+                  "website": "https://quantumwn.org/",
+                  "security_contact": "brick@berachain.com",
+                  "details": "This is seed-2"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "cosmosvaloper1gy3nz5n6k8uhm5yqsg6sss3hkzfhfpdgfup7mr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "P19MXzJys7Zh1oJzRX4dDRA0H7c6DEsYNWg1q5hHxt0="
+                },
+                "value": {
+                  "denom": "abgt",
+                  "amount": "1000000000000000000000"
+                }
+              }
+            ],
+            "memo": "a38d935dcb4d3dda57f9291874384bff1efd3e49@192.168.184.5:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
+                  "key": "As0UyH/4WYqW6qVaxMs+7KvjunIQtFMKhFUR7DnxWJvI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "1dnkJo0psrBOzECa/u2Jts8bs2Hb62Sac08H3XkcQxp63a72aTZFlvjUpbnfXsnoA+aoliq2B1QByG4V+odLrAE="
           ]
         }
       ]
@@ -748,31 +748,31 @@
       "params": {
         "min_deposit": [
           {
-            "denom": "stake",
-            "amount": "10000000"
+            "denom": "abgt",
+            "amount": "10000000000000000000"
           }
         ],
-        "max_deposit_period": "172800s",
-        "voting_period": "172800s",
+        "max_deposit_period": "300s",
+        "voting_period": "300s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "86400s",
+        "expedited_voting_period": "240s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "stake",
-            "amount": "50000000"
+            "denom": "abgt",
+            "amount": "20000000000000000000"
           }
         ],
         "burn_vote_quorum": false,
         "burn_proposal_deposit_prevote": false,
         "burn_vote_veto": true
       },
-      "constitution": ""
+      "constitution": "Honey is money."
     },
     "honey": {
       "params": {
