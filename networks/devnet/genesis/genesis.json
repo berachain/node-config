@@ -1,7 +1,7 @@
 {
   "app_name": "berad",
-  "app_version": "0.0.1-146-g4b3610d7",
-  "genesis_time": "2023-08-24T20:49:11.561038984Z",
+  "app_version": "",
+  "genesis_time": "2023-09-14T16:23:12.017784317Z",
   "chain_id": "berachain-devnet",
   "initial_height": 1,
   "app_hash": null,
@@ -17,86 +17,79 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1jdqzyv6r89n80hc3uwnpne3pc22rsfl4g0ac8r",
+          "address": "cosmos1aysjscm9tu6fkwastwrwmelgaakwlst3w0ual8",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1h7v7dphvvdz4vclupxgdd3rlwrqukceexul0zf",
+          "address": "cosmos1uwkhdw92accw83sfklvqauvjvjv4y3ch6hxqzy",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1gy3nz5n6k8uhm5yqsg6sss3hkzfhfpdgvg4ths",
+          "address": "cosmos17qknq5622c3ynwkgc8497ku5zc7wl869hpcpym",
           "pub_key": null,
           "account_number": "2",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1nupcn584cxkm67t52uarqltp74ke4s73gkd0hn",
+          "address": "cosmos1jfsmrzv5mjppqulvrcjyng4zy76xskytzk52m7",
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1azxhg5c5wlykvuash5jl3lq5qlvhgl6dy5xymp",
+          "address": "cosmos1yrene6g2zwjttemf0c65fscg8w8c55w58yh8rl",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1yrene6g2zwjttemf0c65fscg8w8c55w58yh8rl",
+          "address": "cosmos194myml42cqpep35es43342nuc07047hlrpa93l",
           "pub_key": null,
           "account_number": "5",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos194myml42cqpep35es43342nuc07047hlrpa93l",
+          "address": "cosmos1nx06ek5xvaxy85xe25uxxxj4am4hc0x6up9kqw",
           "pub_key": null,
           "account_number": "6",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1nx06ek5xvaxy85xe25uxxxj4am4hc0x6up9kqw",
+          "address": "cosmos1rdl2zfxdx0vp9zkxw6qy9e4c66d0nw664a3z6j",
           "pub_key": null,
           "account_number": "7",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1rdl2zfxdx0vp9zkxw6qy9e4c66d0nw664a3z6j",
+          "address": "cosmos13ej23uqgpk0ku2z96nxg3r9pxl2jmuhu3dfxgy",
           "pub_key": null,
           "account_number": "8",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos13ej23uqgpk0ku2z96nxg3r9pxl2jmuhu3dfxgy",
+          "address": "cosmos1ys0x0g8nwm8sjussfltknmjtk7ush7hc0tsqne",
           "pub_key": null,
           "account_number": "9",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1ys0x0g8nwm8sjussfltknmjtk7ush7hc0tsqne",
-          "pub_key": null,
-          "account_number": "10",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "cosmos17ej2yqzhhk7mkmchg03tpqs3esnplnx9sna8jp",
           "pub_key": null,
-          "account_number": "11",
+          "account_number": "10",
           "sequence": "0"
         }
       ]
@@ -107,7 +100,7 @@
     "bank": {
       "params": {
         "send_enabled": [],
-        "default_send_enabled": true
+        "default_send_enabled": false
       },
       "balances": [
         {
@@ -179,23 +172,6 @@
           ]
         },
         {
-          "address": "cosmos1gy3nz5n6k8uhm5yqsg6sss3hkzfhfpdgvg4ths",
-          "coins": [
-            {
-              "denom": "abera",
-              "amount": "100000000000000000000000000"
-            },
-            {
-              "denom": "abgt",
-              "amount": "100000000000000000000000000"
-            },
-            {
-              "denom": "stgusdc",
-              "amount": "100000000000000000000000000"
-            }
-          ]
-        },
-        {
           "address": "cosmos13ej23uqgpk0ku2z96nxg3r9pxl2jmuhu3dfxgy",
           "coins": [
             {
@@ -213,19 +189,19 @@
           ]
         },
         {
-          "address": "cosmos1jdqzyv6r89n80hc3uwnpne3pc22rsfl4g0ac8r",
+          "address": "cosmos1jfsmrzv5mjppqulvrcjyng4zy76xskytzk52m7",
           "coins": [
             {
               "denom": "abera",
-              "amount": "100000000000000000000000000"
+              "amount": "1000000000000000000000000000"
             },
             {
               "denom": "abgt",
-              "amount": "100000000000000000000000000"
+              "amount": "1000000000000000000000000000"
             },
             {
               "denom": "stgusdc",
-              "amount": "100000000000000000000000000"
+              "amount": "1000000000000000000000000000"
             }
           ]
         },
@@ -247,7 +223,7 @@
           ]
         },
         {
-          "address": "cosmos1nupcn584cxkm67t52uarqltp74ke4s73gkd0hn",
+          "address": "cosmos1uwkhdw92accw83sfklvqauvjvjv4y3ch6hxqzy",
           "coins": [
             {
               "denom": "abera",
@@ -264,7 +240,7 @@
           ]
         },
         {
-          "address": "cosmos1h7v7dphvvdz4vclupxgdd3rlwrqukceexul0zf",
+          "address": "cosmos1aysjscm9tu6fkwastwrwmelgaakwlst3w0ual8",
           "coins": [
             {
               "denom": "abera",
@@ -281,19 +257,19 @@
           ]
         },
         {
-          "address": "cosmos1azxhg5c5wlykvuash5jl3lq5qlvhgl6dy5xymp",
+          "address": "cosmos17qknq5622c3ynwkgc8497ku5zc7wl869hpcpym",
           "coins": [
             {
               "denom": "abera",
-              "amount": "1000000000000000000000000000"
+              "amount": "100000000000000000000000000"
             },
             {
               "denom": "abgt",
-              "amount": "1000000000000000000000000000"
+              "amount": "100000000000000000000000000"
             },
             {
               "denom": "stgusdc",
-              "amount": "1000000000000000000000000000"
+              "amount": "100000000000000000000000000"
             }
           ]
         },
@@ -322,11 +298,11 @@
       "supply": [
         {
           "denom": "abera",
-          "amount": "8400000000000000000000000000"
+          "amount": "8300000000000000000000000000"
         },
         {
           "denom": "abgt",
-          "amount": "8400000000000000000000000000"
+          "amount": "8300000000000000000000000000"
         },
         {
           "denom": "pool",
@@ -334,16 +310,11 @@
         },
         {
           "denom": "stgusdc",
-          "amount": "8400000000000000000000000000"
+          "amount": "8300000000000000000000000000"
         }
       ],
       "denom_metadata": [],
-      "send_enabled": [
-        {
-          "denom": "abgt",
-          "enabled": false
-        }
-      ]
+      "send_enabled": []
     },
     "berachef": {
       "params": {
@@ -434,8 +405,20 @@
         }
       ]
     },
-    "erc20": {
-      "params": {}
+    "erc20bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [],
+      "supply": [],
+      "denom_metadata": [],
+      "send_enabled": [
+        {
+          "denom": "abgt",
+          "enabled": false
+        }
+      ]
     },
     "evidence": {
       "evidence": []
@@ -487,11 +470,11 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "seed-3",
-                  "identity": "identity of seed-3",
+                  "moniker": "seed-2",
+                  "identity": "identity of seed-2",
                   "website": "https://quantumwn.org/",
                   "security_contact": "brick@berachain.com",
-                  "details": "This is seed-3"
+                  "details": "This is seed-2"
                 },
                 "commission": {
                   "rate": "0.100000000000000000",
@@ -500,10 +483,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "cosmosvaloper1nupcn584cxkm67t52uarqltp74ke4s73dze6mq",
+                "validator_address": "cosmosvaloper17qknq5622c3ynwkgc8497ku5zc7wl869j4v5gg",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "X5m/ZQ+ODLZEcY4ibNJjoQ0wYHfd8XSZHoyFXzvQT0c="
+                  "key": "X+GkJJBPfukwSw2+DOQGkGJCWj0vyK3jRmaBRLB8oSI="
                 },
                 "value": {
                   "denom": "abgt",
@@ -511,7 +494,7 @@
                 }
               }
             ],
-            "memo": "2df00b4126acc33bf3f5959f48cb214ca18d7806@192.168.101.124:26656",
+            "memo": "07c458ed8eff56806e100c443a06c55d3aa43e99@192.168.189.25:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -521,7 +504,7 @@
               {
                 "public_key": {
                   "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "AjL7WWjEwV0560/fAQn6/Zrr6xvypq0i1yhC/KP7DbAp"
+                  "key": "A9cPnh62MvyBh6O3+Zk6ha+S8I7WHj6+YEvckDhXa8z/"
                 },
                 "mode_info": {
                   "single": {
@@ -540,69 +523,7 @@
             "tip": null
           },
           "signatures": [
-            "BmE16uSmXhghKqJbDAcEptV1ViINJkHg4dmvuo0SBmk4G2wzxL3dsZr65mrWuzZc5JxTzuN7MKdmp10RQ/qr0wE="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "seed-0",
-                  "identity": "identity of seed-0",
-                  "website": "https://quantumwn.org/",
-                  "security_contact": "brick@berachain.com",
-                  "details": "This is seed-0"
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "",
-                "validator_address": "cosmosvaloper1jdqzyv6r89n80hc3uwnpne3pc22rsfl4dmfdts",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "RTEaUblmZke90T5wQkuuS+IHS1mbzmgQDhMnwgck+Yw="
-                },
-                "value": {
-                  "denom": "abgt",
-                  "amount": "1000000000000000000000"
-                }
-              }
-            ],
-            "memo": "69fbbf574a77a3b9f56b1d77c594ebaa075a04ac@192.168.178.91:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "A8uH/3jl0YfzdpCijvxvOsCLGoCIvw8a0+R9ir5eargj"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "bLm3DfGODnHMcrvHxo8bDvBh0JZVT6+gM2A/cGmop80Jnucos96IQwQWFjscZxBs2+zVU0chXYVolx70aCPingE="
+            "fXK0D6q/U/x/LUwEhckRuPQimDwZnnQVxrj190w3NWcmLTs0sis2C0Z6Xeiuezo23AfZdFe1rwXl40dh4L4S+QA="
           ]
         },
         {
@@ -624,10 +545,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "cosmosvaloper1h7v7dphvvdz4vclupxgdd3rlwrqukceergt6w6",
+                "validator_address": "cosmosvaloper1uwkhdw92accw83sfklvqauvjvjv4y3chlrj4wh",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "o9wdkwUUisT5es1G38kzSg9F185VRBlm+K6mD9j+JxY="
+                  "key": "WAo93xvNUQhHcN9eqEdIQFp0I2EU/uxJ1rr58WCbAdk="
                 },
                 "value": {
                   "denom": "abgt",
@@ -635,7 +556,7 @@
                 }
               }
             ],
-            "memo": "75d830479a1cd3253f245c73d002636318fb2ff7@192.168.100.32:26656",
+            "memo": "5f177669ee7fc08eb9bb955a31dbfb50030e4717@192.168.156.224:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -645,7 +566,7 @@
               {
                 "public_key": {
                   "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "AjNpAIjUv3vxWDCStdKmaHTfo9+b8nRl+Yc/W6vL0TJq"
+                  "key": "A+QhjS9bpDBiOSf2feREJTJq3FHYcpmvlYmKqB3r8Rl0"
                 },
                 "mode_info": {
                   "single": {
@@ -664,7 +585,7 @@
             "tip": null
           },
           "signatures": [
-            "u61Jku17SGOeEnK47kK8hmcjdb8IiYO83uvkh3D1vG4KwCgouKgXSlexO4UWsxZS1rnxGW7rwX3jVuS/VKJQJAA="
+            "6K0sl7nZwwrnrSneNkuwW49NZoNj5m7pTYbVMQl7325MIvCTAntdzW7TCCx4Sps0FuWU37j0dG7HGPSITzXBBAA="
           ]
         },
         {
@@ -673,11 +594,11 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "seed-2",
-                  "identity": "identity of seed-2",
+                  "moniker": "seed-0",
+                  "identity": "identity of seed-0",
                   "website": "https://quantumwn.org/",
                   "security_contact": "brick@berachain.com",
-                  "details": "This is seed-2"
+                  "details": "This is seed-0"
                 },
                 "commission": {
                   "rate": "0.100000000000000000",
@@ -686,10 +607,10 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "cosmosvaloper1gy3nz5n6k8uhm5yqsg6sss3hkzfhfpdgfup7mr",
+                "validator_address": "cosmosvaloper1aysjscm9tu6fkwastwrwmelgaakwlst3tmggn5",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "P19MXzJys7Zh1oJzRX4dDRA0H7c6DEsYNWg1q5hHxt0="
+                  "key": "X3VkTy3H/D9TpEjirCAXvaAwUs1YlClW5bAhRKPPOTo="
                 },
                 "value": {
                   "denom": "abgt",
@@ -697,7 +618,7 @@
                 }
               }
             ],
-            "memo": "a38d935dcb4d3dda57f9291874384bff1efd3e49@192.168.184.5:26656",
+            "memo": "b48a014752ef83bcfa78b0dcb40f8caa64a5d6cb@192.168.107.207:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -707,7 +628,7 @@
               {
                 "public_key": {
                   "@type": "/polaris.crypto.ethsecp256k1.v1.PubKey",
-                  "key": "As0UyH/4WYqW6qVaxMs+7KvjunIQtFMKhFUR7DnxWJvI"
+                  "key": "As4xRccagFA8YqA6SVOeGO6mNuQPZZnVMVjI/7ipToOk"
                 },
                 "mode_info": {
                   "single": {
@@ -726,7 +647,7 @@
             "tip": null
           },
           "signatures": [
-            "1dnkJo0psrBOzECa/u2Jts8bs2Hb62Sac08H3XkcQxp63a72aTZFlvjUpbnfXsnoA+aoliq2B1QByG4V+odLrAE="
+            "DnqMAHGRpblGvizObuYCCF2Ui3r3+TolDjpxUTQW4SEDm6C1v5KM0LpALDz9PMsCBCadV+QTyO4DWGo0XKjemgE="
           ]
         }
       ]
