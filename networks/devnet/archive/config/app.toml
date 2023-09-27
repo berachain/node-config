@@ -230,7 +230,7 @@ max-txs = "5000"
 ###############################################################################
 [oracle]
 ## Vote Extensions Enabled specifies whether the oracle will have vote extensions enabled.
-vote_extensions_enabled = false
+vote_extensions_enabled = true
 
 ## Update Interval (in seconds) is the time between each time the oracle triggers providers to update price-data
 update_interval = "5s"
