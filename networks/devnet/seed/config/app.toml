@@ -520,6 +520,9 @@ idle-timeout = "2m0s"
 ###                                  Oracle                                 ###
 ###############################################################################
 [oracle]
+## Vote Extensions Enabled specifies whether the oracle will have vote extensions enabled.
+vote_extensions_enabled = true
+
 ## Update Interval (in seconds) is the time between each time the oracle triggers providers to update price-data
 update_interval = "0s"
 
@@ -528,14 +531,27 @@ update_interval = "0s"
 timeout = "0s"
 
 ## InProcess specifies whether the oracle configured, is currently running as a remote grpc-server, or will be run in process
-in_process = false
+in_process = true
 
 ## RemoveAddress is the address of the remote oracle grpc-server, only used if in_process is set to false
-remote_address= ""
+remote_address= "localhost:8080"
 
 # Providers
+providers = [
+    { name = "coingecko" },
+    { name = "coinbase" }
+    # todo add more providers
+]
 
 # Currency Pairs
+currency_pairs = [
+    { base = "BITCOIN", quote = "USD" },
+    { base = "ETHEREUM", quote = "USD" },
+    { base = "COSMOS", quote = "USD" },
+    { base = "ETHEREUM", quote = "BTC" },
+    { base = "USDC", quote = "USD" }
+]
+
 
 [oracle.metrics]
 ## PrometheusServerAddress is the address of the prometheus server that the oracle will expose metrics to

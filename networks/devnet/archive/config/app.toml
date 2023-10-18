@@ -520,6 +520,9 @@ idle-timeout = "2m0s"
 ###                                  Oracle                                 ###
 ###############################################################################
 [oracle]
+## Vote Extensions Enabled specifies whether the oracle will have vote extensions enabled.
+vote_extensions_enabled = true
+
 ## Update Interval (in seconds) is the time between each time the oracle triggers providers to update price-data
 update_interval = "0s"
 
@@ -528,7 +531,7 @@ update_interval = "0s"
 timeout = "0s"
 
 ## InProcess specifies whether the oracle configured, is currently running as a remote grpc-server, or will be run in process
-in_process = false
+in_process = true
 
 ## RemoveAddress is the address of the remote oracle grpc-server, only used if in_process is set to false
 remote_address= ""
