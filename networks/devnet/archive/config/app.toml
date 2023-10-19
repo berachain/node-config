@@ -106,8 +106,7 @@ prometheus-retention-time = 0
 #
 # Example:
 # [["chain_id", "cosmoshub-1"]]
-global-labels = [
-]
+global-labels = []
 
 ###############################################################################
 ###                           API Configuration                             ###
@@ -242,7 +241,7 @@ rpc-tx-fee-cap = "1"
 
 
 # Chain config
-[polaris.polar.chain] 
+[polaris.polar.chain]
 chain-id = "2061"
 
 # Homestead switch block
@@ -534,7 +533,7 @@ timeout = "4s"
 in_process = true
 
 ## RemoveAddress is the address of the remote oracle grpc-server, only used if in_process is set to false
-remote_address= "localhost:8080"
+remote_address = "localhost:8080"
 
 # Providers
 providers = [
@@ -548,7 +547,7 @@ currency_pairs = [
     { base = "ETHEREUM", quote = "USD" },
     { base = "COSMOS", quote = "USD" },
     { base = "ETHEREUM", quote = "BTC" },
-    { base = "USDC", quote = "USD" }
+    { base = "USD-COIN", quote = "USD" },
 ]
 
 
