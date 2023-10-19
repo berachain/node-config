@@ -524,11 +524,11 @@ idle-timeout = "2m0s"
 vote_extensions_enabled = true
 
 ## Update Interval (in seconds) is the time between each time the oracle triggers providers to update price-data
-update_interval = "4s"
+update_interval = "5s"
 
 ## Timeout is the time that the vote-extension handler will wait for a response from the oracle (either running in / out-of process), generally this parameter should be 
 ## less than the timeout_prevote parameter in the consensus config
-timeout = "5s"
+timeout = "4s"
 
 ## InProcess specifies whether the oracle configured, is currently running as a remote grpc-server, or will be run in process
 in_process = true
