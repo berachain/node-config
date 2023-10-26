@@ -323,7 +323,7 @@ etherbase = "0xAf15f95bed0D3913a29092Fd7837451Ce4de64D3"
 extra-data = "0x"
 
 # Gas price for transactions included in blocks
-gas-price = "1000000"
+gas-price = "1"
 
 # Minimum gas limit for transactions included in blocks
 gas-floor = "0"
