@@ -323,7 +323,7 @@ etherbase = "0xAf15f95bed0D3913a29092Fd7837451Ce4de64D3"
 extra-data = "0x"
 
 # Gas price for transactions included in blocks
-gas-price = "1000000000"
+gas-price = "1"
 
 # Minimum gas limit for transactions included in blocks
 gas-floor = "0"
@@ -341,10 +341,10 @@ new-payload-timeout = "2s"
 # Gas price oracle settings for Polaris
 [polaris.polar.gpo]
 # Number of blocks to check for gas prices
-blocks = "20"
+blocks = "100"
 
 # Percentile of gas price to use
-percentile = "60"
+percentile = "65"
 
 # Maximum header history for gas price determination
 max-header-history = "1024"
@@ -356,10 +356,10 @@ max-block-history = "1024"
 default = "1000000000"
 
 # Maximum gas price value
-max-price = "500000000000"
+max-price = "50000000000000"
 
 # Prices to ignore for gas price determination
-ignore-price = "2"
+ignore-price = "1"
 
 # LegacyTxPool settings
 [polaris.polar.legacy-tx-pool]
@@ -537,17 +537,17 @@ remote_address = "localhost:8080"
 
 # Providers
 providers = [
-    { name = "coingecko" },
+    { name = "okx" },
     # todo add more providers
 ]
 
 # Currency Pairs
 currency_pairs = [
-    { base = "BITCOIN", quote = "USD" },
-    { base = "ETHEREUM", quote = "USD" },
-    { base = "COSMOS", quote = "USD" },
-    { base = "ETHEREUM", quote = "BTC" },
-    { base = "USD-COIN", quote = "USD" },
+    { base = "BTC", quote = "USDC" },
+    { base = "ATOM", quote = "USDT" },
+    { base = "TIA", quote = "USDT" },
+    { base = "ETH", quote = "USDC" },
+    { base = "USDC", quote = "USDT" },
 ]
 
 
