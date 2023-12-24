@@ -323,7 +323,7 @@ etherbase = "0x8e64A8f0080D9f6E2845d4cc888CA137D52DF2fC"
 extra-data = "0x"
 
 # Gas price for transactions included in blocks
-gas-price = "1000000000"
+gas-price = "1"
 
 # Minimum gas limit for transactions included in blocks
 gas-floor = "0"
@@ -335,7 +335,7 @@ gas-ceil = "30000000"
 recommit = "2s"
 
 # Timeout for creating a new payload
-new-payload-timeout = "2s"
+new-payload-timeout = "3s"
 
 
 # Gas price oracle settings for Polaris
