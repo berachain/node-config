@@ -209,7 +209,7 @@ laddr = "tcp://0.0.0.0:26656"
 # and will introspect on the listener or use UPnP
 # to figure out the address. ip and port are required
 # example: 159.89.10.97:26656
-external_address = "seed-3.berachain-internal.com:26656"
+external_address = ""
 
 # Comma separated list of seed nodes to connect to
 seeds = ""
