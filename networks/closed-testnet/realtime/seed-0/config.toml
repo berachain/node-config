@@ -203,7 +203,7 @@ laddr = "tcp://0.0.0.0:26656"
 # Address to advertise to peers for them to dial. If empty, will use the same
 # port as the laddr, and will introspect on the listener to figure out the
 # address. IP and port are required. Example: 159.89.10.97:26656
-external_address = ""
+external_address = "seed-0.berachain-internal.com:26656"
 
 # Comma separated list of seed nodes to connect to
 seeds = ""
