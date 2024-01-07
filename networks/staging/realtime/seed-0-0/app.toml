@@ -18,11 +18,11 @@ query-gas-limit = "0"
 # nothing: all historic states will be saved, nothing will be deleted (i.e. archiving node)
 # everything: 2 latest states will be kept; pruning at 10 block intervals.
 # custom: allow pruning options to be manually specified through 'pruning-keep-recent', and 'pruning-interval'
-pruning = "nothing"
+pruning = "everything"
 
 # These are applied if and only if the pruning strategy is custom.
-pruning-keep-recent = "0"
-pruning-interval = "0"
+pruning-keep-recent = "2"
+pruning-interval = "10"
 
 # HaltHeight contains a non-zero block height at which a node will gracefully
 # halt and shutdown that can be used to assist upgrades and testing.
@@ -82,7 +82,7 @@ app-db-backend = ""
 [telemetry]
 
 # Prefixed with keys to separate services.
-service-name = ""
+service-name = "<INSERT_YOUR_NODE_NAME_HERE>"
 
 # Enabled enables the application telemetry functionality. When enabled,
 # an in-memory sink is also enabled by default. Operators may also enabled
@@ -90,13 +90,13 @@ service-name = ""
 enabled = true
 
 # Enable prefixing gauge values with hostname.
-enable-hostname = false
+enable-hostname = true
 
 # Enable adding hostname to labels.
-enable-hostname-label = false
+enable-hostname-label = true
 
 # Enable adding service to labels.
-enable-service-label = false
+enable-service-label = true
 
 # PrometheusRetentionTime, when positive, enables a Prometheus metrics sink.
 prometheus-retention-time = 0
@@ -108,6 +108,17 @@ prometheus-retention-time = 0
 # [["chain_id", "cosmoshub-1"]]
 global-labels = []
 
+# MetricsSink defines the type of metrics sink to use.
+metrics-sink = "dogstatsd"
+
+# StatsdAddr defines the address of a statsd server to send metrics to.
+# Only utilized if MetricsSink is set to "statsd" or "dogstatsd".
+statsd-addr = "datadog.berachain-staging.com:8125"
+
+# DatadogHostname defines the hostname to use when emitting metrics to
+# Datadog. Only utilized if MetricsSink is set to "dogstatsd".
+datadog-hostname = "YOUR_MONIKER"
+
 ###############################################################################
 ###                           API Configuration                             ###
 ###############################################################################
@@ -115,10 +126,10 @@ global-labels = []
 [api]
 
 # Enable defines if the API server should be enabled.
-enable = true
+enable = false
 
 # Swagger defines if swagger documentation should automatically be registered.
-swagger = true
+swagger = false
 
 # Address defines the API server to listen on.
 address = "tcp://0.0.0.0:1317"
@@ -310,20 +321,17 @@ terminal-total-difficulty = "0"
 # Whether terminal total difficulty has passed
 terminal-total-difficulty-passed = "true"
 
-# DevMode enabled
-is-dev-mode = false
-
 
 # Miner config
 [polaris.polar.miner]
 # The address to which mining rewards will be sent
-etherbase = "0xAf15f95bed0D3913a29092Fd7837451Ce4de64D3"
+etherbase = "0x2D764DFeaAc00390c69985631aAA7Cc3fcfaFAfF"
 
 # Extra data included in mined blocks
 extra-data = "0x"
 
 # Gas price for transactions included in blocks
-gas-price = "1"
+gas-price = "1000000000"
 
 # Minimum gas limit for transactions included in blocks
 gas-floor = "0"
@@ -335,16 +343,16 @@ gas-ceil = "30000000"
 recommit = "2s"
 
 # Timeout for creating a new payload
-new-payload-timeout = "3s"
+new-payload-timeout = "2s"
 
 
 # Gas price oracle settings for Polaris
 [polaris.polar.gpo]
 # Number of blocks to check for gas prices
-blocks = "100"
+blocks = "20"
 
 # Percentile of gas price to use
-percentile = "65"
+percentile = "60"
 
 # Maximum header history for gas price determination
 max-header-history = "1024"
@@ -356,10 +364,10 @@ max-block-history = "1024"
 default = "1000000000"
 
 # Maximum gas price value
-max-price = "50000000000000"
+max-price = "500000000000"
 
 # Prices to ignore for gas price determination
-ignore-price = "1"
+ignore-price = "2"
 
 # LegacyTxPool settings
 [polaris.polar.legacy-tx-pool]
@@ -371,7 +379,7 @@ locals = []
 no-locals = false
 
 # Journal of local transactions to survive node restarts
-journal = "transactions.rlp"
+journal = ""
 
 #  Time interval to regenerate the local transaction journal
 rejournal = "1h0m0s"
@@ -519,9 +527,6 @@ idle-timeout = "2m0s"
 ###                                  Oracle                                 ###
 ###############################################################################
 [oracle]
-## Vote Extensions Enabled specifies whether the oracle will have vote extensions enabled.
-vote_extensions_enabled = true
-
 ## Update Interval (in seconds) is the time between each time the oracle triggers providers to update price-data
 update_interval = "5s"
 
@@ -533,23 +538,39 @@ timeout = "4s"
 in_process = true
 
 ## RemoveAddress is the address of the remote oracle grpc-server, only used if in_process is set to false
-remote_address = "localhost:8080"
+remote_address= ""
 
 # Providers
-providers = [
-    { name = "okx" },
-    # todo add more providers
-]
+
+[[oracle.providers]]
+name = "okx"
+apikey = ""
+provider_timeout = "0s"
+
+# Token Name to TokenMetadata
+[[oracle.providers.token_name_to_metadata]]
 
 # Currency Pairs
-currency_pairs = [
-    { base = "BTC", quote = "USDC" },
-    { base = "ATOM", quote = "USDT" },
-    { base = "TIA", quote = "USDT" },
-    { base = "ETH", quote = "USDC" },
-    { base = "USDC", quote = "USDT" },
-]
 
+[[oracle.currency_pairs]]
+base = "BTC"
+quote = "USDC"
+
+[[oracle.currency_pairs]]
+base = "ATOM"
+quote = "USDT"
+
+[[oracle.currency_pairs]]
+base = "TIA"
+quote = "USDT"
+
+[[oracle.currency_pairs]]
+base = "ETH"
+quote = "USDC"
+
+[[oracle.currency_pairs]]
+base = "USDC"
+quote = "USDT"
 
 [oracle.metrics]
 ## PrometheusServerAddress is the address of the prometheus server that the oracle will expose metrics to
